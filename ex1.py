@@ -12,7 +12,7 @@ def total_salary(path):
     except Exception as e:
         print("Помилка: ",e)
 # print(total_salary("my_text.txt"))
-total, average = total_salary("my_text.txt")
+total, average = total_salary("my_text1.txt")
 print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
 
 

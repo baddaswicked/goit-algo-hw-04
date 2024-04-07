@@ -1,3 +1,4 @@
+from pprint import pprint
 def get_cats_info(path):
     list=[]
     try:
@@ -14,4 +15,4 @@ def get_cats_info(path):
         print("Файл не знайдено")
     except Exception as e:
         print("Помилка: ",e)
-print(get_cats_info("my_text.txt"))
+pprint(get_cats_info("my_text.txt"))
